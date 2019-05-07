@@ -2,7 +2,9 @@
 // documentation about the devcontainer.json format
 {
 	"name": "Go",
-	"dockerFile": "Dockerfile",
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "go",
+	"workspaceFolder": "/workspace",
 	"extensions": [
 		"ms-vscode.go"
 	],
